@@ -1,0 +1,58 @@
+img {
+  margin: 10px;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.card {
+  margin-bottom: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .8);
+    border: 1px solid #3f3f3f;
+  }
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.offcanvas-end .card {
+  width: 26rem;
+  transform: translateX(-100px);
+}
+
+.offcanvas-start .card {
+  width: 26rem;
+  transform: translateX(40px);
+}
+
+.add-card {
+  cursor: pointer;
+  border: 3px dashed #919191;
+  transition: all 0.3s;
+  &:hover {
+    background-color: #f8f9fa;
+    border: 3px solid #0084ff;
+    color: #0084ff;
+  }
+}
+
+.stats {
+    padding-left: 5px;
+    margin-bottom: -10px;
+}
+
+.progress {
+    height: 15px;
+    margin-bottom: 0;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+form {
+    padding-top: 10px;
+}
