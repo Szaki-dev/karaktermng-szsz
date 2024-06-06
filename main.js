@@ -128,7 +128,7 @@ function createElementWithClass(type, className, parent) {
   const element = document.createElement(type);
   if (type == 'select') {
     const inputLabel = createElementWithClass('label', 'form-label', parent);
-    inputLabel.innerHTML = "Klassz";
+    inputLabel.innerHTML = "Kaszt";
   }
   element.className = className;
   if (parent) parent.appendChild(element);
