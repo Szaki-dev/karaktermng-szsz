@@ -114,7 +114,6 @@ function createStat(statName, statValue, color){
 
   const progressBar = document.createElement('div');
   progressBar.classList.add('progress-bar', color);
-  progressBar.setAttribute('role', 'meter');
   progressBar.style.width = statValue/20*100 + '%';
   progressBar.setAttribute('aria-valuenow', statValue);
   progressBar.setAttribute('aria-valuemin', '0');
